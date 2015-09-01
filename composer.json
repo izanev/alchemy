@@ -1,0 +1,32 @@
+{
+    "name": "alchemy/alchemy-framework",
+    "description": "AlchemyPHP is a light-weight, event-driven PHP framework",
+    "type": "framework",
+    "keywords": ["framework", "event-driven", "rest"],
+    "homepage": "http://alchemyphp.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Zanev",
+            "email": "ivan@alchemyphp.com",
+            "homepage": "http://www.alchemyphp.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "support@alchemyphp.com",
+        "issues": "https://github.com/izanev/alchemy/issues",
+        "forum": "http://forum.alchemyphp.com/",
+        "wiki": "http://wiki.alchemyphp.com/",
+        "source": "https://github.com/izanev/alchemy/",
+        "docs": "https://github.com/izanev/alchemy/docs"
+    },
+    "require": {
+        "php": ">=5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alchemy": "src/"
+        }
+    }
+}
